@@ -46,7 +46,7 @@ use parser for Common Lisp applications."
     :components
     ((:module "src"
 	      :components ((:file "package")
-			   (:file "nt-parser" :depends-on ("package")))))
+			   (:file "nq-parser" :depends-on ("package")))))
     :depends-on (:alexandria))
 
 
