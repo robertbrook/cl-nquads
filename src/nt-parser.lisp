@@ -61,7 +61,7 @@
 
 ;;; Main function is PARSE-NT
 
-(in-package :cl-ntriples)
+(in-package :cl-nquads)
 
 ;;---------------------------------------------------------
 
