@@ -24,10 +24,10 @@
 ;; SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-(defpackage :cl-ntriples
-  (:nicknames :nt)
+(defpackage :cl-nquads
+  (:nicknames :nq)
   (:use :cl :alexandria)
   (:export
-   #:parse-nt
+   #:parse-nq
    #:predicate?
    #:literal-string))
