@@ -27,15 +27,15 @@
 
 (in-package :cl-user)
 
-(defpackage :cl-ntriples-asd
+(defpackage :cl-nquads-asd
   (:use :cl :asdf))
 
-(in-package :cl-ntriples-asd)
+(in-package :cl-nquads-asd)
 
-(defsystem :cl-ntriples
+(defsystem :cl-nquads
     :version "2012.12.16"      ; YYYY.MM.DD -- digits to suit the ASDF
     :licence "BSD"
-    :description "CL-NTRIPLES is a simple basic parser for Ntriples data."
+    :description "CL-NQUADS is a simple basic parser for Ntriples data."
     :author "Victor Anyakin <anyakinvictor@yahoo.com>"
     :long-description
     "A basic parser and a set of simple utilities to parse N-Triples data.
